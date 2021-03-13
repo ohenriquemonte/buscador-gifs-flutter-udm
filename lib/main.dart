@@ -3,9 +3,23 @@ import 'package:flutter/material.dart';
 
 void main() {
   // runApp(MyApp());
-  runApp(MaterialApp(
-    home: HomePage(),
-  ));
+  runApp(
+    MaterialApp(
+      home: HomePage(),
+      // theme: ThemeData(
+      // accentColor: Colors.white,
+      // hintColor: Colors.white,
+      // inputDecorationTheme: InputDecorationTheme(
+      //   border:
+      //       OutlineInputBorder(borderSide: BorderSide(color: Colors.white)),
+      //   enabledBorder:
+      //       OutlineInputBorder(borderSide: BorderSide(color: Colors.white)),
+      //   focusedBorder:
+      //       OutlineInputBorder(borderSide: BorderSide(color: Colors.white)),
+      // ),
+      // ),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
