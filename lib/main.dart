@@ -1,7 +1,11 @@
+import 'package:buscador_gifs/ui/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  // runApp(MyApp());
+  runApp(MaterialApp(
+    home: HomePage(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
